@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use App\Models\Space;
 use Illuminate\Http\Request;
+use App\Http\Requests\SpaceRequest;
+use Illuminate\View\View;
 
 class SpaceController extends Controller
 {
@@ -26,7 +28,7 @@ class SpaceController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(SpaceRequest $request)
     {
         $space['building'] = $request->input('building');
         $space['floor'] = $request->input('floor');
