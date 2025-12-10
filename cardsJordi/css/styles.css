@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(85, 79, 79);
+}
+
+.logo{
+    display: flex;
+    width: 50px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #D62822;
+    z-index: 1000;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+} 
+
+nav ul li a:hover{
+    color: #1A1E21;
+}
+
+.boardGame{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 100px;
+}
+
+#boardPlayer1, #boardPlayer2, #boardPlayer3, #boardPlayer4, #boardPlayer5, #boardBank{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#boardPlayer1 img, #boardPlayer2 img, #boardPlayer3 img, #boardPlayer4 img, #boardPlayer5 img, #boardBank img{
+    width: 150px;
+    height: auto;
+}
+
+#results {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#results h2 {
+    margin: 10px; 
+    padding-top: 20px;
+}
+
+
+footer {
+    background: #222;
+    color: #eee;
+    padding: 10px 20px;
+    margin-bottom: 0;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+#boardPlayer1 img.fotoJugador, #boardPlayer2 img.fotoJugador, #boardPlayer3 img.fotoJugador, #boardPlayer4 img.fotoJugador, #boardPlayer5 img.fotoJugador, #boardBank img.fotoJugador {
+    width: 80px;
+    height: auto;
+    border-radius: 20%;
+}

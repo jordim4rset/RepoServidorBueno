@@ -1,0 +1,115 @@
+/* body{
+    margin: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #363232;
+    z-index: 1000;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover{
+    color: #eb0a0a;
+}
+
+.logo{
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+}
+
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.tarjeta{
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid 0.3px #333;
+    width: 200px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+
+.tarjeta h3{
+    margin: 15px 0 10px 0;
+    font-size: 23px;
+    color: #333;
+}
+
+.tarjeta img{
+    width: 100%;
+    height: 200px;
+}
+
+.tarjeta p{
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+}
+
+.precio{
+    padding: 5px;
+}
+
+.maps, .titulo_dondeestamos, .titulo_formulario{
+    text-align: center;
+}
+
+.formulario{
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario label{
+ display: block;   
+ font-weight: bold;
+ margin-bottom: 4px;
+}
+    
+input, textarea, select{
+    width: 100%;
+    padding: 6px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+    align-items: center;
+}
+     */

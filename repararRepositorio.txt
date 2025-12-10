@@ -1,0 +1,9 @@
+del .git\refs\remotes\origin\main
+
+git remote prune origin
+git fetch --all
+
+git checkout main
+git reset --hard origin/main
+
+git pull
